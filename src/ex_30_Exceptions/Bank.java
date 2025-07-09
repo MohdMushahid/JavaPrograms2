@@ -42,3 +42,9 @@ class CurrencyMisMatchCustomException extends Exception{
         super(msg);
     }
 }
+
+class NotValidAgeException extends Exception{
+    NotValidAgeException(String e){
+        super(e);
+    }
+}
